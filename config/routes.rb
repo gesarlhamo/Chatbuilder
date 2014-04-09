@@ -1,4 +1,8 @@
 Chatbuilder::Application.routes.draw do
+  get '/index' => 'chatbuilder#index', as:'chatbuilder'
+  root to: 'chatbuilder#index'
+
+  resources :chatbuilder
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

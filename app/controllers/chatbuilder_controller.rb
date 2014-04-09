@@ -1,0 +1,2 @@
+class ChatbuilderController < ApplicationController
+end
